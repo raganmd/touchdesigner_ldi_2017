@@ -52,6 +52,7 @@ As we speed towards LDI I hope you’re finding yourself excited about taking so
 
 *11.13.17*
 **Overview of the Day**
+
 Time|   Topic
 ---|---
 9:00|   Introductions | Why use TouchDesigner | What TouchDesigner is and isn’t
@@ -69,6 +70,7 @@ Time|   Topic
 
 *11.14.17*
 **Overview of the Day**
+
 Time|   Topic
 ---|---
 9:00|   Procedural Geometry with SOPs
