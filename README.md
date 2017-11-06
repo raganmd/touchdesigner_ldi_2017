@@ -5,13 +5,13 @@ Join Matthew Ragan from Obscura Digital for a whirlwind tour of developing custo
 
 Participants can expect to walk away from the workshop with:
 
-an understanding the development environment
-best practices for development and organization
-foundational principles for playing and cueing traditional media
-foundational principles and experience creating generative artwork
-an overview of techniques for building user interfaces for interactive systems
-experience projection mapping with TouchDesigner
-an introduction to Python as a scripting language
+* an understanding the development environment
+* best practices for development and organization
+* foundational principles for playing and cueing traditional media
+* foundational principles and experience creating generative artwork
+* an overview of techniques for building user interfaces for interactive systems
+* experience projection mapping with TouchDesigner
+* an introduction to Python as a scripting language
 
 ## Target Audience
 
