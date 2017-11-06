@@ -51,7 +51,6 @@ As we speed towards LDI I hope you’re finding yourself excited about taking so
 ## Day 1 – Getting Started and Your First Project
 
 *11.13.17*
-**Overview of the Day**
 
 Time|   Topic
 ---|---
@@ -66,10 +65,28 @@ Time|   Topic
 4:45|   Q&A
 5:00|   Wrap Day 1
 
+### Overview of the Day
+#### Introductions
+
+#### Navigating the Environment
+
+
+#### Building Networks
+
+
+#### UI Building | Working with Components
+
+
+#### Making a Video Selector | Working with Python
+
+
+#### Reacting to Audio and Component Integration
+
+
 ## Day 2 – Realtime Rendering and Mapping
 
+
 *11.14.17*
-**Overview of the Day**
 
 Time|   Topic
 ---|---
@@ -83,3 +100,21 @@ Time|   Topic
 3:15|   Setup for Live Events and Show Ready
 4:45|   Q&A
 5:00|   Wrap Day 2
+
+### Overview of the Day
+#### Procedural Geometry with SOPs
+
+
+#### Realtime Rendering - The Basics
+
+
+#### Realtime Rendering - Instances and Beyond
+
+
+#### Mapping our Content | Overview and Framing
+
+
+#### Stoner | Kantan Mapper | Cam Schanpper
+
+
+#### Setup for Live Events and Show Ready Networks
