@@ -79,7 +79,7 @@ What is an operator?! If you’re familiar with Object Oriented Programming, we 
 The connections of operators that we create in TouchDesigner are called "Networks." Just like Max has the convention of calling its work space a patch, and processing it's workspace a sketch, TouchDesigner follows in this pattern by giving it's workspace a name.
 
 Networks primarily flow as streams of information between nodes of the same family. In Touch this is represented visually as objects/nodes/ops of the same color. Ops, short for operators, are our primary building blocks in this environment. Ops, from an abstract viewpoint, represent data types.
-* **TOPs | Texture Operatores** (purple) - represent texture / image information. 
+* **TOPs | Texture Operators** (purple) - represent texture / image information. 
 * **CHOPs | Channel Operators** (green) - are arrays of values - if that sounds strange / new, we can also think of these ops as being list of numbers, just like a column or row in a spreadsheet. 
 * **SOPs | Surface Operators** (blue) - are geometry data - these have all sorts of pieces tied to them, most importantly we need to think of them as spatial data.
 * **MATs | Materials** (yellow) - are materials - these are used when we're doing realtime rendering.
