@@ -69,9 +69,21 @@ Time|   Topic
 #### Introductions
 
 #### Navigating the Environment
+Welcome to the TouchDesigner network. The Network is the name for the open space where we layout our nodes, and create chains of operators. We can zoom, pan, and navigate the network like a hierarchy. We can also expose lots of different viewports from here. We aren’t going to spend too much time talking about how to navigate the network abstractly – since it’s easiest to learn by actually working on a project – but it is handy to know a few things to help us get started.
 
+What is an operator?! If you’re familiar with Object Oriented Programming, we can almost think of our operators as an instance of an object. If you’re not familiar with OOP (I wasn’t when I started) that’s okay. We can think of an operator as a building block for our networks. How we arrange our building blocks changes what our final results are, and how we structure our projects can make it harder or easier at the end of the day to know what’s going on. In general, we are going to focus on building clean, modular, and reusable networks. It’s often tempting to feel like you need to make something unique for every show or installation, but in fact we end up being much happier programmers if we’re able to re-use pieces of our code.
+
+“But Matt, forcing me to think about the engineering is going to hamper my creative process! I just want to create without boundaries.” Good for you. These days I don’t usually let myself be limited by what’s possible technically; however, when we’re starting to think about interactivity and developing new tools we need to start from somewhere – and our somewhere relies on making sure we have a common understanding of the computational processes and principles that will define what we can ask a computer to do. In designing a production we often wrestle with various constraints – the play is a constraint, the space is a constraint, the time, the set, and and and. Design is inherently a process of wrestling with constraint, so let’s think of our knowledge of this field as just another constraint for the time being. Rather than thinking of how we’re limited by the realities of current technology, we might instead think about how knowing the rules of a given system allow us to find ways of working around them or flat out exploiting them.
 
 #### Building Networks
+The connections of operators that we create in TouchDesigner are called "Networks." Just like Max has the convention of calling its work space a patch, and processing it's workspace a sketch, TouchDesigner follows in this pattern by giving it's workspace a name.
+
+Networks primarily flow as streams of information between nodes of the same family. In Touch this is represented visually as objects/nodes/ops of the same color. Ops, short for operators, are our primary building blocks in this environment. Ops, from an abstract viewpoint, represent data types.
+* **TOPs | Texture Operatores** (purple) - represent texture / image information. 
+* **CHOPs | Channel Operators** (green) - are arrays of values - if that sounds strange / new, we can also think of these ops as being list of numbers, just like a column or row in a spreadsheet. 
+* **SOPs | Surface Operators** (blue) - are geometry data - these have all sorts of pieces tied to them, most importantly we need to think of them as spatial data.
+* **MATs | Materials** (yellow) - are materials - these are used when we're doing realtime rendering.
+* **DATs | Data Operators** (mauve) - are data operators - this is where we do all of our scripting and can enter data that's not an image, list, or geometry.
 
 
 #### UI Building | Working with Components
