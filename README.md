@@ -49,25 +49,22 @@ As we speed towards LDI I hope you’re finding yourself excited about taking so
 * Take a look at some of the projects featured on the [Derivative Blog](https://www.derivative.ca/Blog/) to see what people are making and doing with TouchDesigner.
 
 ## Day 1 – Getting Started and Your First Project
-
 *11.13.17*
 
-Time|   Topic
+Time| Topic
 ---|---
-9:00|   Introductions | Why use TouchDesigner | What TouchDesigner is and isn’t
-10:00|  Navigating the Environment
-10:30|  Building Networks
-12:00|  Lunch
-1:00|   UI Building | Components
-1:30|   Making a Video Selector | Working with Python
-3:00|   Break
-3:15|   Reacting to Audio and Component Integration
-4:45|   Q&A
-5:00|   Wrap Day 1
+9:00| Introductions | Why use TouchDesigner | What TouchDesigner is and isn’t
+10:00| Navigating the Environment
+10:30| Building Networks | TOPs and CHOPs
+12:00| Lunch
+1:00| Procedural Geometry | SOPs   
+1:45| Realtime Rendering - The Basics
+3:00| Break
+3:15| Realtime Rendering - Instances and Beyond
+4:45| Q&A
+5:00| Wrap Day 1  
 
 ### Overview of the Day
-#### Introductions
-
 #### Navigating the Environment
 Welcome to the TouchDesigner network. The Network is the name for the open space where we layout our nodes, and create chains of operators. We can zoom, pan, and navigate the network like a hierarchy. We can also expose lots of different viewports from here. We aren’t going to spend too much time talking about how to navigate the network abstractly – since it’s easiest to learn by actually working on a project – but it is handy to know a few things to help us get started.
 
@@ -85,36 +82,7 @@ Networks primarily flow as streams of information between nodes of the same fami
 * **MATs | Materials** (yellow) - are materials - these are used when we're doing realtime rendering.
 * **DATs | Data Operators** (mauve) - are data operators - this is where we do all of our scripting and can enter data that's not an image, list, or geometry.
 
-
-#### UI Building | Working with Components
-
-
-#### Making a Video Selector | Working with Python
-
-
-#### Reacting to Audio and Component Integration
-
-
-## Day 2 – Realtime Rendering and Mapping
-
-
-*11.14.17*
-
-Time|   Topic
----|---
-9:00|   Procedural Geometry with SOPs
-9:30|   Realtime Rendering - The Basics
-10:30|  Realtime Rendering - Instances and Beyond
-12:00|  Lunch
-1:00|   Mapping our Content | Overview and Frame
-1:30|   Stoner | Kantan Mapper | Cam Schnapper
-3:00|   Break
-3:15|   Setup for Live Events and Show Ready
-4:45|   Q&A
-5:00|   Wrap Day 2
-
-### Overview of the Day
-#### Procedural Geometry with SOPs
+#### Procedural Geometry | SOPs   
 
 
 #### Realtime Rendering - The Basics
@@ -123,10 +91,41 @@ Time|   Topic
 #### Realtime Rendering - Instances and Beyond
 
 
-#### Mapping our Content | Overview and Framing
+## Day 2 – Realtime Rendering and Mapping
+*11.14.17*
+
+Time| Topic
+---|---
+9:00| UI Building | Components
+9:30| Python Fundamentals - Understanding where Python fits into Touch
+10:00| Making a Video Selector with Presets | Working with Python
+11:30| Planning for future module integration
+12:00| Lunch
+1:00| Mapping our Content | Overview and Frame
+1:30| Stoner | Kantan Mapper | Cam Schnapper
+3:00| Break
+3:15| Setup for Live Events and Show Ready
+4:45| Q&A
+5:00| Wrap Day 2
+
+### Overview of the Day
+
+#### UI Building | Components
 
 
-#### Stoner | Kantan Mapper | Cam Schanpper
+#### Python Fundamentals - Understanding where Python fits into Touch
 
 
-#### Setup for Live Events and Show Ready Networks
+#### Making a Video Selector with Presets | Working with Python
+
+
+#### Planning for future module integration
+
+
+#### Mapping our Content | Overview and Frame
+
+
+#### Stoner | Kantan Mapper | Cam Schnapper
+
+
+#### Setup for Live Events and Show Ready
