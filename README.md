@@ -66,7 +66,7 @@ Time| Topic
 
 ### Overview of the Day
 #### Navigating the Environment
-Welcome to the TouchDesigner network. The Network is the name for the open space where we layout our nodes, and create chains of operators. We can zoom, pan, and navigate the network like a hierarchy. We can also expose lots of different viewports from here. We aren’t going to spend too much time talking about how to navigate the network abstractly – since it’s easiest to learn by actually working on a project – but it is handy to know a few things to help us get started.
+Welcome to the TouchDesigner network. The Network is the name for the open space where we layout our nodes, and create chains of operators. We can zoom, pan, and navigate the network like a hierarchy. We can also expose lots of different viewports from here. We aren’t going to spend too much time talking about how to navigate the network abstractly – since it’s easiest to learn by actually working on a project – but it is handy to know a few things to help us get started.t
 
 What is an operator?! If you’re familiar with Object Oriented Programming, we can almost think of our operators as an instance of an object. If you’re not familiar with OOP (I wasn’t when I started) that’s okay. We can think of an operator as a building block for our networks. How we arrange our building blocks changes what our final results are, and how we structure our projects can make it harder or easier at the end of the day to know what’s going on. In general, we are going to focus on building clean, modular, and reusable networks. It’s often tempting to feel like you need to make something unique for every show or installation, but in fact we end up being much happier programmers if we’re able to re-use pieces of our code.
 
