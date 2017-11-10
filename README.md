@@ -83,13 +83,13 @@ Networks primarily flow as streams of information between nodes of the same fami
 * **DATs | Data Operators** (mauve) - are data operators - this is where we do all of our scripting and can enter data that's not an image, list, or geometry.
 
 #### Procedural Geometry | SOPs   
-
+Surface operators are an interesting wrinkle in the TouchDesigner family. Their history stretches back to before the fork from Houdini, and while there are some elements of SOPs that are a little cumbersome these days, they have tremendous potential. Over the course of this block we’ll pull apart a few of the usual kinds of SOP operations, as well as taking some time to visit some of the lesser know / discussed ops as we get a handle on what it is to build procedural geometry.
 
 #### Realtime Rendering - The Basics
-
+Realtime rendering is where it’s at. Some of the most fun to be had in TouchDesigner is working with realtime rendered content. That being said, there’s lots of ground to cover here. There are lots of similarities between touch and other rendering environments, and there are some unique pieces that are distinctly openGL related. All that being said, we’ll take time to look at rendering fundamentals as well as some of the gotchas that typically trip-up new touch programmers.
 
 #### Realtime Rendering - Instances and Beyond
-
+Rendering really gets interesting once we move away from just single objects and begin to think about lots and lots of objects. Instancing is just this kind of idea. Here we’ll find the flexibility to start to really create interesting explorations of realtime rendered content. There’s more than can be covered in a single day, let alone a few hours, but we’ll still do our best to at least debunk what’s really happening under the hood and have a solid set of understanding this essential realtime rendering concept.
 
 ## Day 2 – Realtime Rendering and Mapping
 *11.14.17*
@@ -111,21 +111,22 @@ Time| Topic
 ### Overview of the Day
 
 #### UI Building | Components
-
+UI Building is a strange beast in TouchDesigner. It’s difficult to say if there are right or wrong ways to tackle this process, but there are certainly ways we can make this process less cumbersome. We’ll look at some of the default UI building elements, as well as how to make our own during this block. Later in the day we’re going to return to this and really explore what it takes to build a UI, but for now we’ll just get our bearings.
 
 #### Python Fundamentals - Understanding where Python fits into Touch
-
+Python is one of the fastest ways to level up your TouchDesigner game. There are few things you can’t do in Touch with Python, and while there are efficiency trade offs to consider, there are also lots of exciting ways we can extend and expand our reach. We’ll talk a little bit about how to read the documentation, and look at where Python fits into the grand scheme of things.
 
 #### Making a Video Selector with Presets | Working with Python
-
+Finally, we’re going to start building an app. At this point we’re going to take all of things we’ve learned and experimented with and build something functional. This is a little shy of the app you might want to build for an event or installation (in fact it’s probably pretty far off the mark), but we need to start somewhere. This will also give us some insight into how Python works in conjunction with our op workflow.
 
 #### Planning for future module integration
-
+Before we break for lunch we’ll take a moment to talk through how we plan for future additions. Many Touch programmers often have their sights set on that holy grail of a perfect network. That’s good, and we can do a healthy bit to think through how we plan for the future, for refactoring, and for collaboration.
 
 #### Mapping our Content | Overview and Frame
-
+Before we dig into doing any actual mapping, we need to first talk about mapping methodologies. We’ll take a moment to discuss some of the larger considerations for projection mapping, and how we might want to consider our approach.
 
 #### Stoner | Kantan Mapper | Cam Schnapper
-
+Now that we’ve built our own piece of the puzzle, let’s look at how we can integrate some ready made tools for mapping. We’ll consider three different big-idea approaches for mapping, what they’re good for, where they fall down, and when we might choose to use which one.
 
 #### Setup for Live Events and Show Ready
+Rounding out two full days we’ll revisit how we need to consider app building with TouchDesigner, considerations for making sure we’re show ready, and some tips and tricks to help you work smarter not harder. Then, all too quickly, it’ll be time for us to pack up and move on to our next LDI adventures.
